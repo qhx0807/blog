@@ -1,0 +1,42 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "keywords": [
+    "blog",
+    "markdown"
+  ],
+  "author": "qhx",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "browser-sync": "^2.26.3",
+    "front-matter": "^3.0.1",
+    "gulp": "^4.0.0",
+    "gulp-append-prepend": "^1.0.6",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-data": "^1.3.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-footer": "^2.0.2",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-header": "^2.0.7",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-less": "^4.0.1",
+    "gulp-markdown": "^3.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-swig": "^0.8.0",
+    "gulp-uglify": "^3.0.1",
+    "highlight.js": "^9.13.1",
+    "less-plugin-autoprefix": "^2.0.0",
+    "marked": "^0.6.0"
+  }
+}
