@@ -46,6 +46,7 @@ gulp.task('posts', function (done) {
     .pipe(data(file => file.data))
     .pipe(header(fs.readFileSync('./src/views/post_head.html')))
     .pipe(footer(fs.readFileSync('./src/views/post_foot.html')))
+    .pipe(swig())
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('dist/posts'))
   done()
