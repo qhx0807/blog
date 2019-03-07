@@ -1,6 +1,8 @@
 ---
 title: thiskjs中的jwt鉴权
 date: 2018-11-20 11:04
+tags: Thinkjs
+categories: 前端开发
 ---
 
 鉴权是大部分 Web 服务必备的基础功能之一，JSON Web Token（即 JWT）是一个非常轻巧的规范。这个规范允许我们使用 JWT 在用户和服务器之间传递安全可靠的信息。它提供基于 JSON 格式的 Token 来做安全认证。
