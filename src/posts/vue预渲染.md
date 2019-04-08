@@ -14,7 +14,7 @@ categories: 前端开发
 
 用起来都很简单，主要是在安装步骤，这里会安装 [puppeteer](https://github.com/GoogleChrome/puppeteer), 一个无头浏览器，它会下载 `Chromium ` 内核，接近200M大小，
 
-[puppeteer](https://pptr.dev/) 十分强大，无界面版chrome, 可以用来做很多事。
+[puppeteer文档](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/) 十分强大，无界面版chrome, 可以用来做很多事。
 
 2. 在项目下新建文件 `vue.config.js`
 
@@ -47,7 +47,6 @@ new Vue({
 ```
 4. 执行命令 `npm run build` 就会在 `dist` 目录中生成对应的静态html文件。
 
-总结： 
+总结：
 预渲染只适合于少数不依赖于后端数据的活动宣传营销页面，并不能大面积的使用，如果是为了真正的SEO,加载速度和用户体验，还是得上SSR.
 [vue-ssr](https://ssr.vuejs.org/zh/)
-
