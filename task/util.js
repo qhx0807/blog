@@ -6,7 +6,6 @@ function getArchiveData (ora) {
   })
   var uniyear = Array.from(new Set(years))
   for (let i = 0; i < uniyear.length; i++) {
-    console.log(i)
     var obj = {
       year: uniyear[i],
       posts: []
